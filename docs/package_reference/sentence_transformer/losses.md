@@ -58,6 +58,12 @@ Sadly, there is no "one size fits all" loss function. Which loss function is sui
 .. autoclass:: sentence_transformers.sentence_transformer.losses.CoSENTLoss
 ```
 
+## CachedCoSENTLoss
+
+```{eval-rst}
+.. autoclass:: sentence_transformers.sentence_transformer.losses.CachedCoSENTLoss
+```
+
 ## AnglELoss
 
 ```{eval-rst}
