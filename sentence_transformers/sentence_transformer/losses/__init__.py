@@ -9,6 +9,7 @@ from .batch_all_triplet import BatchAllTripletLoss
 from .batch_hard_soft_margin_triplet import BatchHardSoftMarginTripletLoss
 from .batch_hard_triplet import BatchHardTripletLoss, BatchHardTripletLossDistanceFunction
 from .batch_semi_hard_triplet import BatchSemiHardTripletLoss
+from .cached_cosent import CachedCoSENTLoss
 from .cached_gist_embed import CachedGISTEmbedLoss
 from .cached_multiple_negatives_ranking import CachedMultipleNegativesRankingLoss
 from .cached_multiple_negatives_symmetric_ranking import CachedMultipleNegativesSymmetricRankingLoss
@@ -56,6 +57,7 @@ __all__ = [
     "ContrastiveTensionLossInBatchNegatives",
     "ContrastiveTensionDataLoader",
     "CoSENTLoss",
+    "CachedCoSENTLoss",
     "AnglELoss",
     "OnlineContrastiveLoss",
     "MegaBatchMarginLoss",
